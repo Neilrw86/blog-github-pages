@@ -3,4 +3,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Cloud Native Journey
 author: Neil Wylie
-description: Cloud Native, Local Lab
+description: Cloud Native Lab Blog
