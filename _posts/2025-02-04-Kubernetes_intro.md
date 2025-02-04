@@ -1,5 +1,5 @@
 ### From Monoliths to Microservices: How Kubernetes is Driving Application Modernization
-![Introduction Image](intro_image.jpeg)
+![Introduction Image](/assets/images/intro_image.jpeg)
 
 Remember when applications were monolithic beasts?  Deploying them felt like trying to move a mountain – slow, cumbersome, and fraught with risk.  Scaling? Forget about it.  And if one part of the application went down, the whole thing crashed.  Those were the days of the 3-tier architecture, a simpler time perhaps, but one that couldn't keep up with the demands of modern business.
 
@@ -49,7 +49,7 @@ Migrating to microservices is a journey, not a destination. It's about evolving 
 * **Secure:** Prioritize security at every stage of the modernization process.
 
 #### From Pets to Cattle: The Modern Infrastructure Model
-![Cattle Servers](cattle-server.jpg)
+![Cattle Servers](/assets/images/cattle-server.jpg)
 The modern era demands a new way of thinking about infrastructure. We've moved from treating servers like pets – lovingly cared for and individually named – to treating them like cattle – interchangeable and easily replaceable. This "cattle" mentality is essential for running microservices at scale, whether in the cloud or on-premises. Kubernetes makes it possible to treat your infrastructure as code, automating deployments and making your applications more resilient than ever before.
 
 #### The Rise of the "Cattle" Model
