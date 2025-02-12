@@ -1,0 +1,31 @@
+name: Spellcheck
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - _posts/**
+  pull_request:
+    paths:
+      - _posts/**
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y aspell aspell-en
+
+      - name: Run spellcheck
+        run: |
+          for file in $(find _posts -name '*.md'); do
+            echo "Checking $file"
+            aspell --mode=markdown check "$file"
+          done
