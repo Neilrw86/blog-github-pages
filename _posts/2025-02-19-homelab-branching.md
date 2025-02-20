@@ -6,23 +6,23 @@ In the early days of my homelab project, I relied on Git as a simple version con
 
 ![Git Branching Strategy](/assets/images/git_branch.jpeg)
 
-### The Journey to Dev-First Development
+## The Journey to Dev-First Development
 
 As my repositories grew and management became more complex, I started to explore more advanced Git strategies. Here are the stages I've gone through:
 
-#### Linting
+### Linting
 
 Initially, I focused on linting as a way to catch errors early.
 
-#### CI Testing on Git
+### CI Testing on Git
 
 Next, I set up Continuous Integration (CI) testing directly in my Git workflow.
 
-#### Runners for Pulling and Executing
+### Runners for Pulling and Executing
 
 I introduced runners that would pull changes and execute tasks automatically.
 
-#### Runners for Pulling and Executing with Tagging Commits
+### Runners for Pulling and Executing with Tagging Commits
 
 Later, I added the ability to tag commits as releases, which helped me plan for upcoming versions.
 
